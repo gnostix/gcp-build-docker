@@ -3,6 +3,5 @@ steps:
   args: [ 'build', '-t', 'us-central-docker.pkg.dev/ha-vpn-441118/quickstart-docker-repo/github-image:tag1', '.' ]
 images:
 - 'us-central1-docker.pkg.dev/ha-vpn-441118/quickstart-docker-repo/github-image:tag1'
-
 options:
  logging: CLOUD_LOGGING_ONLY
